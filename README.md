@@ -1,12 +1,16 @@
 Rishihood frontend task:
----------------------------
+
+/------------------------
+
 Setup Instructions:
 1.git clone <your-repo-url>
 2.cd <your-repo-folder>
 3.npm install
 4.Set up environment variables: .env.local (NEXT_PUBLIC_BASEURL=https://6986e8828bacd1d773ec025a.mockapi.io/)
 5.npm run dev
-----------------------------
+
+/-------------------------
+
 Features Implemented :
 1. Fetch Users: Retrieve the list of users from the API
 2. Add User: Add a new user with name, email, role, and status
@@ -21,5 +25,6 @@ Features Implemented :
 11. Async Thunks: Handle API calls with createAsyncThunk for fetch, add, update, and delete
 12. UI Components: Built with custom components (Table, Input, Button, AlertDialog, etc.)
 
- ------------------------------
+ /---------------------------
+ 
 mockapi.io Endpoints Used : https://6986e8828bacd1d773ec025a.mockapi.io/users
